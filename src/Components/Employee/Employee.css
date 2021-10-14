@@ -1,0 +1,73 @@
+h3, h5, p {
+    padding: 0;
+    margin: 0;
+}
+.emp-biodata {
+    background-color: #2f3542;
+    display: grid;
+    grid-template-columns: 1fr 5px 1fr;
+    padding-bottom: 20px;
+    color: white;
+    margin: 0 15px;
+    border-radius: 10px;
+    box-shadow: 3px 3px 6px #2f3542c9;
+}
+.emp-title {
+    text-align: center;
+    margin-top: -50px;
+}
+.emp-image {
+    height: 115px;
+    overflow: hidden;
+}
+.emp-image img {
+    width: 90px;
+    border: 6px solid #dfe4ea;
+    border-radius: 50%;
+    transition: transform .5s ease;
+    margin-top: 5px;
+}
+.emp-image:hover img {
+    transform: scale(1.1);
+}
+.emp-title h3 {
+    margin-bottom: 10px;
+}
+.emp-social i {
+    color: white;
+    font-size: 20px;
+    margin: 10px;
+}
+.vl {
+    border-left: 1px solid rgb(82, 79, 79);
+    height: 70%;
+    margin-top: auto;
+    margin-bottom: auto;
+    margin-left: 5px;
+}
+.emp-info {
+    line-height: 30px;
+    margin: 10px 0 0 15px;
+}
+.country {
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.emp-info button {
+    background-color: #747d8c;
+    color: white;
+    padding: 10px 15px;
+    border: 0;
+    text-transform: uppercase;
+    font-weight: 700;
+    border-radius: 5px;
+    margin-top: 10px;
+    cursor: pointer;
+}
+.emp-info button:hover {
+    background-color: #ff4757;
+    color: white;
+}
+.added {
+    background-color: #ff4757;
+}
